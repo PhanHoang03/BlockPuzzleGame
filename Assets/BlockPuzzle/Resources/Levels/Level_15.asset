@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de192067c1414db499569292367b835d, type: 3}
+  m_Name: Level_15
+  m_EditorClassIdentifier: 
+  numRow: 9
+  numCol: 9
+  numSquare: 0
+  shapeList:
+  - {fileID: 11400000, guid: 89209a2eea2a92046810b3adcd726dc1, type: 2}
+  - {fileID: 11400000, guid: e269b81e0fafbb34cb3513c38d199a0e, type: 2}
+  - {fileID: 11400000, guid: 05acda9aba4d4484fab1c2ea7b93ada6, type: 2}
+  - {fileID: 11400000, guid: e14d865aab7314d44bc1b02622f36aa8, type: 2}
+  - {fileID: 11400000, guid: 19675614a7e13534e9facf2861031897, type: 2}
+  - {fileID: 11400000, guid: 6013b824ad5bded4db0b493685d21111, type: 2}
+  board:
+  - _row: 000000000000000000
+  - _row: 000000000000000000
+  - _row: 000000000000000000
+  - _row: 010000010101000001
+  - _row: 010000010001000001
+  - _row: 000001000000010000
+  - _row: 000000000000000000
+  - _row: 000000000000000000
+  - _row: 000000000000000000
