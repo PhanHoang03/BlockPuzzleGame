@@ -9,6 +9,7 @@ public class ShapeManager : MonoBehaviour
     [SerializeField] protected GridManager gridManager;
     [SerializeField] protected List<ShapeSO> shapeTypes;
     [SerializeField] protected List<Shape> shapeList;
+    [SerializeField] public List<Shape> ShapeList => shapeList;
     [SerializeField] protected GameOverCtrl gameOverCtrl;
     [SerializeField] protected GameClearCtrl gameClearCtrl;
     [SerializeField] protected LevelSO levelSO;

@@ -6,6 +6,7 @@ public class GameClearCtrl : MonoBehaviour
 {
     [SerializeField] protected GridManager gridManager;
     [SerializeField] GameObject view;
+    [SerializeField] LevelCtrl levelCtrl;
 
     void Start()
     {
@@ -22,10 +23,9 @@ public class GameClearCtrl : MonoBehaviour
         this.view.SetActive(false);
     }
 
-    public void TryAgain()
+    public void Continue()
     {
-        this.gridManager.ResetGrid();
-        //this.scoreCtrl.ResetValue();
         this.view.SetActive(false);
+        this.levelCtrl.ChooseLevel(this.levelCtrl.levelID + 1);
     }
 }

@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class BackButtonCtrl : MonoBehaviour
 {
-    [SerializeField] protected GameObject levelSelect;
-
-    public void Back()
+    [SerializeField] GridManager gridManager;
+    [SerializeField] ShapeManager shapeManager;
+    [SerializeField] GameObject levels;
+    
+    public void BackToMenu()
     {
-        this.levelSelect.SetActive(true);
+        this.gridManager.ResetGrid();
+        this.shapeManager.SetUp();
+        this.levels.transform.Find("ViewHolder").gameObject.SetActive(true);
     }
 }

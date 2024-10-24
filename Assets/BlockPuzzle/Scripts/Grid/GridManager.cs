@@ -92,7 +92,7 @@ public class GridManager : MonoBehaviour
                 this._gridSquares[squareIndex].transform.SetParent(this.transform);
                 this._gridSquares[squareIndex].transform.localScale = new Vector3(squareScale, squareScale, squareScale);
                 this._gridSquares[squareIndex].GetComponent<GridSquare>().SetUp();
-                this._gridSquares[squareIndex].GetComponent<GridSquare>().SetImage(_index % 2 == 0 ? 0 : 1);
+                this._gridSquares[squareIndex].GetComponent<GridSquare>().SetImage(0);
                 squareIndex++;
             }
         }
